@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2dc0a1",
+    "navigationBarTitleText": "专题",
+    "navigationBarTextStyle":"white",
+    "background": "#2dc0a1"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,39 @@
+<!--pages/user/user.wxml-->
+<!-- <text>pages/user/user.wxml</text>
+ -->
+ <view class="title" style="background-image:url(../../images/33.png);">
+    <image src="../../images/图层 12.png" alt="" bindtap="handleback"/>
+  <text>如何研制一碗香喷喷的方便面</text>
+  <image src="../../images/xin 拷贝@2x.png" class="love" />
+  </view>
+
+<view class="userinfo">
+  <view class="userinfo-box">
+    <text>如何研制一碗香喷喷的方便面</text>
+    <view class="userinfo-color"></view>
+    <view class="number-box">
+      <view class="box-left">
+        <image src="../../images/chakan_1@2x.png" alt="" />
+        <text>1220</text>
+        <image src="../../images/xin@2x.png" alt="" />
+        <text>1000</text>
+      </view>
+      <view class="box-right">11-02</view>
+    </view>
+    <view class="user-img">
+      <image src="../../images/图层 76@2x.png" alt="" />
+    </view>
+    <view class="text-box">
+      <text>
+      前段时间严选3周年推出了高好评、高复购、高性价比的10大经典商品。冻干牛肉面就在其中，累计销量已经超过了300万碗。
+    </text>
+    <text class="text-box-text">所以，我这次开发的新品冻干藤椒豚骨面，不只对标识人家的竞品，更想挑战自家经典。</text>
+    </view>
+    <view class="noodles-img">
+      <image src="../../images/图层 77@2x.png" alt="" />
+    </view>
+    <view>
+      <text>不变的，是宇航“黑科技”————FD冻干工艺。煮好的面条、大片叉烧、蔬菜、骨汤都在-30度真空环境下冷冻干燥，不仅保留了原本的色香味，还能大大减少营养流失，媲美现煮。</text>
+    </view>
+  </view>
+</view>

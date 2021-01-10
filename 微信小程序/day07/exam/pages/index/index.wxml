@@ -1,0 +1,176 @@
+<!--index.wxml-->
+<view class="title" style="background-image:url(../../images/33.png);">
+    <text>专题</text>
+</view>
+<view class="container">
+  <view class="swiper">
+    <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" autoplay="{{autoplay}}"
+      interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}"
+      circular="{{circular}}" linear>
+
+      <swiper-item class="swiper-one">
+        <image src="../../images/图层 4.png" alt="" />
+      </swiper-item>
+      <swiper-item class="swiper-two">
+        <image src="../../images/02.jpg" alt="" />
+      </swiper-item>
+      <swiper-item class="swiper-three">
+        <image src="../../images/03.jpg" alt="" />
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="tab">
+    <view class="date {{tabActive=='date'?'active':''}}" bindtap="handleChange" data-active="date">日期
+      <view></view>
+    </view>
+    <view class="special {{tabActive=='special'?'active':''}}" bindtap="handleChange" data-active="special">专题
+      <view></view>
+    </view>
+  </view>
+  <view class="food">
+    <view class="food-one" wx:if="{{tabActive=='date'}}">
+      <view class="food-one-left">
+        <view class="food-one-box">
+          <image src="../../images/图层 3.png" />
+          <view class="food-text-box">
+            <view class="text-box">
+              忙里忙外 回家吃饭
+            </view>
+            <view class="price">
+              19.9元
+              <text>起</text>
+            </view>
+            <view class="views">
+              <image src="../../images/xin@2x.png" alt="" mode="scaleToFill" />
+              <text>1200</text>
+              <image src="../../images/chakan_1@2x.png" alt="" />
+              <text>1000</text>
+            </view>
+          </view>
+          <view class="food-text-img">
+            <image src="../../images/组 35 拷贝@2x.png" alt="" />
+          </view>
+        </view>
+        <view class="food-two-box">
+          <image src="../../images/图层 3.png" />
+          <view class="food-text-box">
+            <view class="text-box">
+              忙里忙外 回家吃饭
+            </view>
+            <view class="price">
+              19.9元
+              <text>起</text>
+            </view>
+            <view class="views">
+              <image src="../../images/xin@2x.png" alt="" mode="scaleToFill" />
+              <text>1200</text>
+              <image src="../../images/chakan_1@2x.png" alt="" />
+              <text>1000</text>
+            </view>
+          </view>
+          <view class="food-text-img">
+            <image src="../../images/组 35 拷贝@2x.png" alt="" />
+          </view>
+
+        </view>
+        <view class="food-two-box">
+          <image src="../../images/图层 3.png" />
+          <view class="food-text-box">
+            <view class="text-box">
+              忙里忙外 回家吃饭
+            </view>
+            <view class="price">
+              19.9元
+              <text>起</text>
+            </view>
+            <view class="views">
+              <image src="../../images/xin@2x.png" alt="" mode="scaleToFill" />
+              <text>1200</text>
+              <image src="../../images/chakan_1@2x.png" alt="" />
+              <text>1000</text>
+            </view>
+          </view>
+          <view class="food-text-img">
+            <image src="../../images/组 35 拷贝@2x.png" alt="" />
+          </view>
+
+        </view>
+
+      </view>
+      <view class="food-two-right">
+        <view class="food-two-box">
+          <image src="../../images/图层 3.png" />
+          <view class="food-text-box">
+            <navigator class="text-box" url="/pages/user/user">
+              如何研制一碗方便面？
+            </navigator>
+            <view class="price">
+              19.9元
+              <text>起</text>
+            </view>
+            <view class="views">
+              <image src="../../images/xin@2x.png" alt="" mode="scaleToFill" />
+              <text>1200</text>
+              <image src="../../images/chakan_1@2x.png" alt="" />
+              <text>1000</text>
+            </view>
+          </view>
+          <view class="food-text-img">
+            <image src="../../images/组 35 拷贝@2x.png" alt="" />
+          </view>
+
+        </view>
+        <view class="food-two-box">
+          <image src="../../images/图层 3.png" />
+          <view class="food-text-box">
+            <view class="text-box">
+              忙里忙外 回家吃饭
+            </view>
+            <view class="price">
+              19.9元
+              <text>起</text>
+            </view>
+            <view class="views">
+              <image src="../../images/xin@2x.png" alt="" mode="scaleToFill" />
+              <text>1200</text>
+              <image src="../../images/chakan_1@2x.png" alt="" />
+              <text>1000</text>
+            </view>
+          </view>
+          <view class="food-text-img">
+            <image src="../../images/组 35 拷贝 2@2x.png" alt="" />
+          </view>
+
+        </view>
+        <view class="food-two-box">
+          <image src="../../images/图层 3.png" />
+          <view class="food-text-box">
+            <view class="text-box">
+              忙里忙外 回家吃饭
+            </view>
+            <view class="price">
+              19.9元
+              <text>起</text>
+            </view>
+            <view class="views">
+              <image src="../../images/xin@2x.png" alt="" mode="scaleToFill" />
+              <text>1200</text>
+              <image src="../../images/chakan_1@2x.png" alt="" />
+              <text>1000</text>
+            </view>
+          </view>
+          <view class="food-text-img">
+            <image src="../../images/组 35 拷贝@2x.png" alt="" />
+          </view>
+
+        </view>
+      </view>
+    </view>
+
+
+
+
+ 
+    <view class="food-two" wx:else>222</view>
+  </view>
+</view>

@@ -1,0 +1,97 @@
+/* pages/user/user.wxss */
+.title {
+  position: relative;
+  width: 100%;
+  height: 167rpx;
+  text-align: center;
+
+}
+.title image {
+  position: absolute;
+  bottom: 10rpx;
+  left: 10rpx;
+  width: 46rpx;
+  height: 46rpx;
+  color: white;
+}
+.title .love {
+  position: absolute;
+  bottom: -20rpx;
+  left: 670rpx;
+  width: 46rpx;
+  height: 46rpx;
+
+}
+.title text {
+  display: inline-block;
+  color: white;
+  margin-top: 100rpx;
+}
+
+.userinfo {
+  width: 100%;
+  height: 1000rpx;
+  background-color: #f7f7f8;
+  padding-top: 20rpx;
+}
+.userinfo-box {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 2000rpx;
+  padding: 0px 40rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  padding-top: 40rpx;
+}
+.userinfo-box>text {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.userinfo-color {
+  position: absolute;
+  top: 120rpx;
+  width: 70rpx;
+  height: 4rpx;
+  background-color: #2bbe9f;
+}
+.number-box {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 40rpx;
+  line-height: 200rpx;
+}
+.box-left {
+  float: left;
+}
+.box-left image{
+  width: 20rpx;
+  height: 17rpx;
+  margin-right: 10rpx;
+}
+.box-left text {
+  font-size: 18rpx;
+  margin-right: 30rpx;
+}
+.box-right {
+  float: right;
+  font-size: 18rpx;
+}
+.user-img {
+  width: 100%;
+  height: 476rpx;
+  /* background-color: royalblue; */
+}
+.user-img image {
+  width: 100%;
+  height: 100%;
+}
+.text-box .text-box-text {
+  display: inline-block;
+  margin-top: 60rpx;
+  margin-bottom: 30rpx;
+}
+.noodles-img image{
+  width: 100%;
+  height: 328rpx;
+}
