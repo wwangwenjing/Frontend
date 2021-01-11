@@ -1,0 +1,7 @@
+/**app.wxss**/
+.container {
+  width: 700rpx;
+  margin: 0 auto;
+  margin-top: 32rpx;
+  border-radius: 50rpx;
+} 

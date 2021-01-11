@@ -1,0 +1,82 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <view class="imgbox">
+      <image src="../../images/04.png" alt="" />
+      <view class="small">赚钱小祝福</view>
+    </view>
+    <view class="pricebox">
+      <view class="money">
+        ￥1200.00
+        <view>
+          可提现金额
+        </view>
+      </view>
+      <image src="../../images/03.png" alt="" />
+    </view>
+  </view>
+  <view class="userincome">
+    <view class="number">
+      ￥1200.00
+      <view>
+        今日营收
+      </view>
+    </view>
+    <view class="number">
+      12
+      <view>
+        订单
+      </view>
+    </view>
+    <view class="number">
+      12
+      <view>
+        顾客
+      </view>
+    </view>
+  </view>
+  <view class="user-sales">
+    <view class="title">
+      <view class="title-content" >累计</view>
+      <view class="title-content">今日</view>
+      <view class="title-content">单位: 件</view>
+    </view>
+    <view class="content">
+      <view class="sales">销量TOP</view>
+      <view class="sales">
+        <view class="circle">1</view>
+        <view class="long">
+          <view>美宝莲 200</view>
+          <view class="color-blue">
+            <view>124</view>
+          </view>
+          <view class="color-yellow"></view>
+        </view>
+      </view>
+      <view class="sales">
+        <view class="circle">
+          2
+        </view>
+        <view class="long">
+          <view>SKII 199</view>
+          <view class="color-blue"></view>
+          <view class="color-yellow"></view>
+
+        </view>
+      </view>
+      <view class="sales">
+        <view class="circle">3</view>
+        <view class="long">
+          <view>红腰子 188</view>
+          <view class="color-blue"></view>
+          <view class="color-yellow"></view>
+
+        </view>
+      </view>
+    </view>
+    <view class="footer">
+      <view>订单</view>
+      <view>记账</view>
+    </view>
+  </view>
+</view>

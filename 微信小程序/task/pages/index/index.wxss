@@ -1,0 +1,155 @@
+/**index.wxss**/
+page {
+  background-color: whitesmoke;
+}
+
+.userinfo {
+  width: 700rpx;
+  height: 178rpx;
+  background-color: #fff;
+ border-radius: 10rpx;
+}
+.imgbox {
+  float: left;
+  width: 350rpx;
+  height: 178rpx;
+  line-height: 178rpx;
+
+}
+.imgbox image {
+  float: left;
+  width: 90rpx;
+  height: 90rpx;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+  border-radius: 50%;
+}
+.small {
+  float: right;
+  font-size: 28rpx;
+  margin-right: 80rpx;
+  font-weight: bold;
+}
+.pricebox {
+  position: relative;
+  float: right;
+  width: 350rpx;
+  height: 178rpx;
+  text-align: center;
+}
+.money {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-top: 58rpx;
+  margin-left: 100rpx;
+}
+.money view {
+  font-size: 18rpx;
+  font-weight: lighter;
+}
+.pricebox image {
+  position: absolute;
+  top: 85rpx;
+  right: 25rpx;
+  height: 24rpx;
+  width: 14rpx;
+}
+.userincome {
+  width: 100%;
+  height: 211rpx;
+  background-color: #fcd24d;
+  border-radius: 10rpx;
+  margin-top: 24rpx;
+  overflow: hidden;
+  padding-left: 42rpx;
+  box-sizing: border-box;
+}
+.userincome .number {
+  float: left;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-top: 70rpx;
+  text-align: center;
+}
+.userincome .number:nth-child(-n+2) {
+  margin-right: 189rpx;
+}
+.userincome .number view {
+  font-size: 18rpx;
+  font-weight: lighter;
+  margin-top: 10rpx;
+}
+.user-sales {
+  width: 100%;
+  height: 694rpx;
+  background-color: thistle;
+  border-radius: 10rpx;
+  margin-top: 24rpx;
+  padding: 32rpx 23rpx;
+  box-sizing: border-box;
+
+}
+.title {
+  overflow: hidden;
+}
+.title .title-content {
+  float: left;
+}
+.title .title-content:nth-child(-n+1) {
+  font-size: 33rpx;
+  font-weight: bold;
+  margin-right: 41rpx;
+}
+.title .title-content:nth-child(2) {
+  font-size: 25rpx;
+  margin-right: 393rpx;
+  margin-top: 10rpx;
+  color: grey;
+}
+.title .title-content:nth-child(3) {
+  font-size: 28rpx;
+  color: grey;
+}
+.content .sales:nth-child(1) {
+  font-size: 33rpx;
+  font-weight: bold;
+  margin-top: 40rpx;
+}
+.sales {
+  overflow: hidden;
+  margin: 30rpx 0;
+  box-sizing: border-box;
+}
+.circle {
+  float: left;
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  text-align: center;
+  line-height: 88rpx;
+  font-weight: bold;
+}
+.long {
+  float: right;
+  margin-right: 250rpx;
+}
+.long view:nth-child(1) {
+ font-size: 22rpx;
+ font-weight: bold;
+}
+.color-blue {
+  width: 296rpx;
+  height: 15rpx;
+  background-color: #7497f6;
+  margin: 21rpx 0rpx;
+}
+.color-blue view {
+  margin-left: 315rpx;
+  margin-top: 30rpx;
+}
+.color-yellow {
+  width: 137rpx;
+  height: 15rpx;
+  background-color: #fad673;
+}
